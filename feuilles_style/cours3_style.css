@@ -1,0 +1,95 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+h3 {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+article {
+	text-align: justify;
+}
+
+em {
+	font-style: italic;
+	font-size: 16;
+}
+
+mark {
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #ffffe5;
+	
+}
+
+#image_5 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.conseil {
+	font-style: italic;
+}
+
+.espacement {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#coursHtmlZero, #livrePhpZero {
+	color: #181818;
+	text-decoration: none;
+}
+
+#coursHtmlZero:hover, #livrePhpZero:hover {
+	color: red;
+}
+
+#coursHtmlZero:visited, #livrePhpZero:visited {
+	color: #8533ff;
+}
+
+nav a:hover {
+	color: #003366;
+}
+
+.creative {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.creativePicture {
+	width: 270px;
+	height: 60px;
+}
+
+#opc {
+	position: relative;
+	bottom: 20px;
+	background-color: yellow;
+}

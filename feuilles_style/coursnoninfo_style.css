@@ -1,0 +1,103 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+h3 {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+article {
+	text-align: justify;
+}
+
+em {
+	font-weight: bold;
+	font-size: 16;
+}
+
+mark {
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #ffffe5;
+}
+
+#image_1{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.creative {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.creativePicture {
+	width: 270px;
+	height: 60px;
+}
+
+#wiki {
+	position: relative;
+	bottom: 20px;
+	background-color: yellow;
+}
+
+/* Spécificités de certaines images pour quelques pages */
+
+#tableau_periodique {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+#marie_curie {
+	float:right;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+#marie_curie_descr {
+	margin-top: 2px;
+	text-align: center;
+}
+
+#courbe_simple {
+	float: right;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+#courbe_simple_descr {
+	margin-top: 2px;
+	text-align: center;
+}

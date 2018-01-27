@@ -1,0 +1,79 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+fieldset {
+	width: 900px;
+	position: relative;
+	background-color: #006666;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0.9em;
+	box-shadow: 6px 6px 6px #262626;
+	height: 180px;
+}
+
+form {
+	position: relative;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+#connexion_pseudo {
+	position: relative;
+	top: 15px;
+}
+
+#connexion_pwd {
+	position: relative;
+	top: 45px;
+}
+
+#connexion_label_pwd {
+	position: relative;
+	top: 30px;
+}
+
+input[type=submit] {
+	display: block;
+	box-shadow: 3px 3px 3px #666666;
+	cursor: pointer;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+
+#erreur {
+	position: relative;
+	left: 280px;
+	top: 50px;
+	font-weight: bold;
+	color: #b30000;
+}

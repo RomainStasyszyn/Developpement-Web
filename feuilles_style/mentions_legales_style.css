@@ -1,0 +1,29 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+article {
+	text-align: justify;
+}

@@ -1,0 +1,109 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+fieldset {
+	width: 500px;
+	position: relative;
+	background-color: #006666;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0.9em;
+	box-shadow: 6px 6px 6px #262626;
+	height: 450px;
+}
+
+form {
+	position: relative;
+	font-weight: bold;
+}
+
+#profil_label_pseudo {
+	margin-top: 15px;
+}
+
+label {
+	display: block;
+	margin-left: 0px;
+	margin-top: 15px;
+}
+
+#profil_pseudo {
+	position: relative;
+	margin-top: 10px;
+}
+
+#profil_label_mail {
+	margin-top: 15px;
+}
+
+#profil_mail {
+	position: relative;
+	margin-top: 10px;
+}
+
+#profil_label_nom {
+	margin-top: 15px;
+}
+
+#profil_nom {
+	position: relative;
+	margin-top: 10px;
+}
+
+#profil_label_prenom {
+	margin-top: 15px;
+}
+
+#profil_prenom {
+	position: relative;
+	margin-top: 10px;
+}
+
+#profil_label_numero {
+	margin-top: 15px;
+}
+
+#profil_numero {
+	position: relative;
+	margin-top: 10px;
+}
+
+#profil_label_solde{
+	margin-top: 15px;
+}
+
+#profil_solde {
+	position: relative;
+	margin-top: 10px;
+}
+
+#envoi_profil{
+	display: block;
+	position: relative;
+	margin-top: 40px;
+	margin-left: 150px;

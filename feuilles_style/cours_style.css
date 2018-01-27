@@ -1,0 +1,57 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Navigation */
+
+.liste_cours {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#cours_info, #cours_math, #cours_phys, #cours_chim {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	height: 40px;
+	width: 600px;
+}
+
+.cours1, .cours2, .cours3, .cours4{
+	margin-right: 10px;
+}
+
+/* Corps */
+section {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+
+article {
+	width: 600px;
+	position: relative;
+	background-color: #006666;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0.9em;
+	box-shadow: 6px 6px 6px #262626;
+	height: 160px;
+}

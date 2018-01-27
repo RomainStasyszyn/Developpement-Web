@@ -1,0 +1,99 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+fieldset {
+	width: 900px;
+	position: relative;
+	background-color: #006666;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0.9em;
+	box-shadow: 6px 6px 6px #262626;
+	height: 280px;
+}
+
+form {
+	position: relative;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+#inscription_pseudo {
+	position: relative;
+	top: 10px;
+}
+
+#inscription_pwd1 {
+	position: relative;
+	top: 30px;
+}
+
+#inscription_label_pwd1 {
+	position: relative;
+	top: 20px;
+}
+
+#inscription_pwd2 {
+	position: relative;
+	top: 50px;
+}
+
+#inscription_label_pwd2 {
+	position: relative;
+	top: 40px;
+}
+
+#inscription_mail {
+	position: relative;
+	top: 70px;
+}
+
+#inscription_label_mail {
+	position: relative;
+	top: 60px;
+}
+
+input[type=submit] {
+	display: block;
+	box-shadow: 3px 3px 3px #666666;
+	cursor: pointer;
+	margin: auto;
+	position: relative;
+	top: 90px;
+}
+
+#erreur {
+	position: relative;
+	left: 280px;
+	top: 50px;
+	font-weight: bold;
+	color: #b30000;
+}

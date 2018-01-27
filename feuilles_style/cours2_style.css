@@ -1,0 +1,97 @@
+/* Corps principal */
+
+body {
+	background-color: #ffffe5;
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page {
+	width: 90%;
+	margin: auto;
+}
+
+section h1, footer h1, nav a {
+	font-family: Dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Corps */
+
+h3 {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+section {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+article {
+	text-align: justify;
+}
+
+em {
+	font-style: italic;
+	font-size: 16;
+}
+
+.remarque {
+	font-style: italic;
+	background-color: #ffff99;
+	font-size: 19px;
+}
+
+.question {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+mark {
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #ffffe5;
+	
+}
+
+#image_4 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.espacement {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.espacement_2 {
+	margin-top: 40px;
+}
+
+.decalage {
+	margin-left: 50px;
+}
+
+.conseil {
+	background-color: #009899;
+}
+
+.creative {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.creativePicture {
+	width: 270px;
+	height: 60px;
+}
+
+#opc {
+	position: relative;
+	bottom: 20px;
+	background-color: yellow;
+}
